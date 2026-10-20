@@ -1,0 +1,11 @@
+services:
+  eurovision:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: eurovision-db-project
+    working_dir: /app
+    command: ["python", "main.py"]
+    volumes:
+      - ./eurovision.db:/app/eurovision.db:rw
+    restart: "no"

@@ -1,0 +1,1 @@
+A Python and SQLite project for analysing Eurovision Song Contest winners and song metadata. It uses SQL queries, aggregations, filters, and joins to explore winning countries, performers, song lengths, languages, genres, and solo performances, with Docker support for containerised execution.
